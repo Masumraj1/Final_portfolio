@@ -13,7 +13,6 @@ class SkillsSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // আইকন সহ আপডেট করা ডাটা লিস্ট
     final List<Map<String, dynamic>> skillCategories = [
       {
         'title': 'Development',
