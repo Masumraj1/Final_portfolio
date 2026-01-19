@@ -5,6 +5,7 @@ import '../providers/scroll_controller_provider.dart';
 import '../widgets/custom_nav_bar.dart';
 import '../widgets/hero_section.dart';
 import '../widgets/sections.dart';
+import '../widgets/stats_section.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
@@ -56,7 +57,9 @@ class HomePage extends ConsumerWidget {
                     scrollTo: scrollTo,
                     contactKey: contactKey,
                   ),
-                  _buildStatsSection(isMobile),
+
+                  //=============Stats Section===========
+                  StatsSection(isMobile: isMobile),
                   _buildAboutSection(aboutKey, isMobile),
                   _buildSkillsSection(skillsKey, isMobile),
                   _buildExperienceSection(expKey, isMobile),
@@ -76,21 +79,7 @@ class HomePage extends ConsumerWidget {
 
 
 
-  // --- Stats ---
-  Widget _buildStatsSection(bool isMobile) {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 60.h),
-      color: Colors.white.withOpacity(0.02),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: const [
-          StatCard("2+", "Years Exp"),
-          StatCard("10+", "Projects"),
-          StatCard("3", "Companies"),
-        ],
-      ),
-    );
-  }
+
 
   // --- About ---
   Widget _buildAboutSection(GlobalKey key, bool isMobile) {
