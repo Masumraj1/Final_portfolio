@@ -16,15 +16,7 @@ class HeroContent extends StatelessWidget {
     return Column(
       crossAxisAlignment: isMobile ? CrossAxisAlignment.center : CrossAxisAlignment.start,
       children: [
-        Text(
-          "SOFTWARE ENGINEER",
-          style: TextStyle(
-            letterSpacing: 4,
-            color: Colors.blueAccent,
-            fontWeight: FontWeight.bold,
-            fontSize: 14.sp,
-          ),
-        ),
+
         SizedBox(height: 20.h),
         Text(
           "Mobile Application Developer (Flutter)",
@@ -37,7 +29,7 @@ class HeroContent extends StatelessWidget {
         ),
         SizedBox(height: 20.h),
         Text(
-          "2 Years, 4 Days of professional experience in building 10+ high-quality mobile apps.",
+          "2 Years, 4 Days of professional experience in building 15+ high-quality mobile apps.",
           textAlign: isMobile ? TextAlign.center : TextAlign.start,
           style: TextStyle(fontSize: 18.sp, color: Colors.grey),
         ),

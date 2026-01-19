@@ -46,7 +46,7 @@ class AboutSection extends StatelessWidget {
 
           // About Description
           Text(
-            "I am Md. Masum Rana, a passionate Flutter Application Developer with over 2 years of experience. I specialize in building high-performance, pixel-perfect, and user-friendly mobile applications. I love turning complex problems into simple, beautiful, and intuitive designs using clean code architecture.",
+              "I am Md. Masum Rana, a Mobile Application Developer at ASL Systems Ltd. My journey began with a year of dedicated self-learning, which paved the way for my 2+ years of professional experience in building high-quality Flutter apps.Currently pursuing a BBA at ZNRF University (ZUMS), I bridge the gap between business logic and technical excellence. Beyond the code, I am a passionate bike rider who thrives on logic, discipline, and the open road.",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18.sp,
@@ -54,8 +54,11 @@ class AboutSection extends StatelessWidget {
               height: 1.6, // লাইন হাইট বাড়ালে পড়তে সুবিধা হয়
             ),
           ),
+
+
         ],
       ),
     );
   }
+
 }

@@ -32,9 +32,11 @@ class StatsSection extends StatelessWidget {
 
   List<Widget> _buildItems() {
     return [
-      const StatCard(value: "2+", label: "Years Exp"),
+      const StatCard(value: "2+", label: "Years Job Exp"),
       if (isMobile) SizedBox(height: 40.h),
-      const StatCard(value: "10+", label: "Projects"),
+      const StatCard(value: "1+", label: "Self Learning"),
+      if (isMobile) SizedBox(height: 40.h),
+      const StatCard(value: "15+", label: "Projects"),
       if (isMobile) SizedBox(height: 40.h),
       const StatCard(value: "3", label: "Companies"),
     ];

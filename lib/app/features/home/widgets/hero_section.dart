@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:portfolio_web/app/core/constants.dart';
 import 'custom_network_image.dart';
 import 'hero_content.dart';
 
@@ -66,19 +67,19 @@ class HeroSection extends StatelessWidget {
             ),
           ),
 
-          // ২. Blue Border Ring (CustomNetworkImage এর বাইরে থাকবে)
+
           Container(
-            padding: EdgeInsets.all(5.r), // বর্ডারের গুরুত্ব বা থিকনেস
+            padding: EdgeInsets.all(5.r),
             decoration: const BoxDecoration(
               color: Colors.blueAccent,
               shape: BoxShape.circle,
             ),
             child: CustomNetworkImage(
-              imageUrl: 'https://avatars.githubusercontent.com/u/141552007?v=4', // আপনার ছবি এখানে দিন
+              imageUrl: AppConstants.imageUrl,
               height: isMobile ? 210.r : 270.r,
               width: isMobile ? 210.r : 270.r,
               boxShape: BoxShape.circle,
-              backgroundColor: const Color(0xFF161B22), // লোডিং বা এররের সময় কালার
+              backgroundColor: const Color(0xFF161B22),
             ),
           ),
         ],

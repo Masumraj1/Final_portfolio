@@ -11,3 +11,7 @@ class AppStrings {
   static const String role = "Software Engineer (Flutter)";
   static const String experience = "2 Years, 4 Days";
 }
+
+class AppConstants{
+  static const String imageUrl = "https://avatars.githubusercontent.com/u/141552007?v=4";
+}

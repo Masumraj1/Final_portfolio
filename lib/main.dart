@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'app/core/theme/app_theme.dart';
 import 'app/features/home/views/home_page.dart';
 
 
@@ -21,10 +22,7 @@ class PortfolioApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData.dark().copyWith(
-            scaffoldBackgroundColor: const Color(0xFF0B0F1A),
-            primaryColor: const Color(0xFF3B82F6),
-          ),
+          theme: AppTheme.darkTheme,
           home: const HomePage(),
         );
       },
