@@ -32,7 +32,7 @@ class FooterSection extends ConsumerWidget {
                 onTap: () {},
               ),
               _socialSvgIcon(
-                asset: 'assets/icons/github.svg',
+                asset: 'assets/icons/github_new.svg',
                 tooltip: 'GitHub',
                 onTap: () {},
               ),
