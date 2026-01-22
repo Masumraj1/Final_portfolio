@@ -89,6 +89,17 @@ class ProjectsSection extends StatelessWidget {
         'apkLink': '',
         'videoDemo': '',
       },
+
+      {
+        'title': 'Track Booking',
+        'desc': 'A comprehensive logistics solution featuring dedicated User and Driver apps with real-time GPS tracking, smart route optimization, and secure booking management.',
+        'imageUrl': 'assets/images/track_booking_banner.png',
+        'tech': ['Flutter', 'Firebase', 'Getx', 'Rest API'],
+        'playStore': '',
+        'appStore': '',
+        'apkLink': '',
+        'videoDemo': '',
+      },
     ];
 
     return Container(
